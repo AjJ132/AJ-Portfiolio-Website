@@ -1,0 +1,33 @@
+.skill-details-specified {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.skill-details-specified h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.skill-details-specified ul {
+    list-style-type: disc; 
+    padding-left: 20px;  
+}
+
+.skill-details-specified ul li {
+    margin-bottom: 10px;  
+}
+
+.skill-details-specified p {
+    line-height: 1.5;
+}
+
+.skill-details-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap : 1rem;
+}

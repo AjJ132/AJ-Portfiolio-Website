@@ -1,0 +1,14 @@
+.app-store-button{
+    all: unset;
+    
+}
+
+.app-store-button:hover {
+    cursor: pointer;
+    all : unset;
+}
+
+.apple-logo {
+    cursor: pointer;
+    display: inline-block;
+}
