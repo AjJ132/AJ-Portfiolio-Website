@@ -35,7 +35,7 @@ const DockerDetails: React.FC = () => {
                 Check it out here
             </p>
             <div className='skill-details-footer mt-8'>
-                <GithubButton name='Team Tactics Backend Code' link='https://github.com/AjJ132/Team-Tactics-Backend' />
+                <GithubButton name='Team Tactics Backend' link='https://github.com/AjJ132/Team-Tactics-Backend' />
             </div>
         </div>
     );
