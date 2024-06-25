@@ -19,4 +19,11 @@ const CSharpDetails: React.FC = () => {
                     <strong>Entity Framework Core:</strong> Utilized extensively for data access, enabling efficient interactions with various databases.
                 </li>
                 <li>
-                    <strong>ASP.NET Identity:</strong> Implement
+                    <strong>ASP.NET Identity:</strong> Implemented for user authentication and authorization, ensuring secure access to applications. 
+                </li>
+            </ul>
+        </div>
+    );
+}
+
+export default CSharpDetails;
