@@ -25,7 +25,7 @@ const About: React.FC<AboutProps> = ({ id }) => {
         'Docker',
         'Kubernetes',
         'Azure',
-        'GitLab CI/CD',
+        'Next.js',
         'PostgreSQL',
         'MSSQL',
         'MongoDB',

@@ -7,6 +7,12 @@ import GolangDetails from './Skill Details/GolangDetails';
 import ReactDetails from './Skill Details/ReactDetails';
 import CSharpDetails from './Skill Details/CSharpDetails';
 import TypeScriptDetails from './Skill Details/TypeScriptDetails';
+import JavaScriptDetails from './Skill Details/JavaScriptDetails';
+import PostgresDetails from './Skill Details/PostgresDetails';
+import MongoDBDetails from './Skill Details/MongoDBDetails';
+import GoogleCloudDetails from './Skill Details/GoogleCloudDetails';
+import AzureDetails from './Skill Details/AzureDetails';
+import NextJSDetails from './Skill Details/NextJSDetails';
 
 interface SkillDetailsProps {
     selectedSkill: string;
@@ -35,6 +41,24 @@ const SkillDetails: React.FC<SkillDetailsProps> = ({ selectedSkill }) => {
             break;
         case 'TypeScript':
             SkillComponent = TypeScriptDetails
+            break;
+        case 'JavaScript':
+            SkillComponent = JavaScriptDetails
+            break;
+        case 'PostgreSQL':
+            SkillComponent = PostgresDetails
+            break;
+        case 'MongoDB':
+            SkillComponent = MongoDBDetails;
+            break;
+        case 'Google Cloud':
+            SkillComponent = GoogleCloudDetails;
+            break;
+        case 'Azure':
+            SkillComponent = AzureDetails;
+            break;
+        case 'Next.js':
+            SkillComponent = NextJSDetails;
             break;
         default:
             SkillComponent = () => <p>Selected skill details not available.</p>;

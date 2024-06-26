@@ -35,7 +35,7 @@ const MySkills: React.FC<MySkillsProps> = ({ id }) => {
 
     const skillNames = [
         'JavaScript4', 'TypeScript4', 'React4', 'C#4', 'Golang4', 'Swift4',
-        'Python4', 'Docker4', 'GitLab CI/CD3', 'PostgreSQL3', 'MongoDB3',
+        'Python4', 'Docker4', 'Next.js3', 'PostgreSQL3', 'MongoDB3',
         'Google Cloud2', 'Azure2'
     ];
 
