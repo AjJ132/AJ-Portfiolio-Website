@@ -15,7 +15,7 @@ const Navbar: React.FC<NavbarProps> = ({ }) => {
             <div className='ml-auto flex flex-row gap-4'>
                 <Link to="home" smooth={true}>Home</Link>
                 <Link to="skills" smooth={true}>Skills</Link>
-                <Link to="projects" smooth={true}>Projects</Link>
+                {/* <Link to="projects" smooth={true}>Projects</Link> */}
                 <Link to="contact" smooth={true}>Contact</Link>
             </div>
         </nav>

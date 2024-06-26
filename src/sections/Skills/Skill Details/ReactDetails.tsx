@@ -28,8 +28,8 @@ const ReactDetails: React.FC = () => {
                 Check it out here
             </p>
             <div className='skill-details-footer mt-8'>
-                <GithubButton name='Team Tactics Frontend Code' link='https://github.com/AjJ132/Team-Tactics-Frontend' />
-                <GithubButton name='Stride Sync Frontend Code' link='
+                <GithubButton name='Team Tactics Frontend' link='https://github.com/AjJ132/Team-Tactics-Frontend' />
+                <GithubButton name='Portfolio Website' link='https://github.com/AjJ132/AJ-Portfiolio-Website' />
             </div>
         </div>
     );
